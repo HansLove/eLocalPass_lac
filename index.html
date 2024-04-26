@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLocalPass</title>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+        function activateAccount() {
+            var userResponse = confirm('Cuenta activada, ¿te esperamos en eLocalPass?');
+            if (userResponse) {
+                window.location.href = 'https://elocalpass.com/app/';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Términos y Condiciones del Acuerdo de Afiliación con eLocalPass</h1>
+        <h2>Por favor, lea detenidamente los siguientes términos y condiciones antes de aceptar la afiliación con eLocalPass:</h2>
+        <h3>Objeto del Acuerdo:</h3>
+        <ul>
+            <li>Acepto que la afiliación con eLocalPass no genera ningún costo, tarifa o pago de ningún tipo para mi negocio.</li>
+            <li>Reconozco que eLocalPass no vende publicidad ni otorga beneficios a ningún grupo empresarial en particular, garantizando así la equidad y neutralidad en su plataforma.</li>
+            <li>Entiendo que eLocalPass se compromete a incluir a todos los negocios afiliados en su plataforma, siempre y cuando sean de giro y sector turístico.</li>
+            <li>Acepto recibir capacitación por parte de eLocalPass sobre el acuerdo de afiliación y el uso funcional de la aplicación eLocalPass.</li>
+        </ul>
+        <h3>Compromisos del Afiliado:</h3>
+        <ul>
+            <li>Acepto instalar y utilizar la aplicación de eLocalPass para escanear el QR code cuando reciba un usuario que presente dicho código.</li>
+            <li>Acuerdo tener el logotipo de eLocalPass visible en mi establecimiento, siempre y cuando no infrinja ninguna normativa o política interna.</li>
+            <li>Me comprometo a hacer válido el beneficio ofrecido por eLocalPass y a rechazarlo si el mismo ha expirado.</li>
+            <li>Entiendo que el beneficio ofrecido por eLocalPass no es transferible y puede requerir la presentación de una identificación para su validación.</li>
+        </ul>
+        <h3>Duración del Acuerdo:</h3>
+        <p>Este acuerdo tiene una duración indefinida, a menos que sea terminado por cualquiera de las partes mediante notificación por escrito con al menos [X] días de anticipación.</p>
+        <h3>Legislación Aplicable:</h3>
+        <p>El presente acuerdo se rige por las leyes del Estado de Quintana Roo, México, y cualquier disputa derivada del mismo será sometida a la jurisdicción exclusiva de los tribunales competentes en [Ciudad], Quintana Roo.</p>
+        <p>Al hacer clic en "Aceptar", certifico que he leído y acepto los términos y condiciones del acuerdo de afiliación con eLocalPass.</p>
+        <button onclick="activateAccount()">Aceptar</button>
+    </div>
+</body>
+</html>

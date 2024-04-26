@@ -1,0 +1,66 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Clean and readable font */
+    background-color: #f4f4f4; /* Light grey background for less strain on the eyes */
+    color: #333; /* Dark grey text for good contrast */
+    margin: 0;
+    padding: 10px;
+}
+
+div {
+    background-color: #fff; /* White background for the content area */
+    padding: 20px;
+    margin: auto;
+    max-width: 800px; /* Limits the width of the form for readability */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow to lift the content off the page */
+    border-radius: 8px; /* Slightly rounded corners for a softer look */
+}
+
+h1, h2 {
+    color: #0056b3; /* A stronger, blue color for headings to denote importance */
+}
+
+h1 {
+    border-bottom: 2px solid #eee; /* Adds a subtle line under the main heading */
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding-top: 20px; /* Space above the subheading */
+}
+
+h3 {
+    color: #333;
+    padding: 10px 0; /* Space above and below the section headings */
+    border-bottom: 1px solid #eee; /* Subtle separator for sections */
+}
+
+ul {
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 0;
+}
+
+li {
+    padding: 8px 0; /* Adds vertical padding for list items making them easier to read */
+    border-bottom: 1px solid #eee; /* Separates each list item with a line */
+}
+
+li:last-child {
+    border-bottom: none; /* Removes the border from the last item to clean up the design */
+}
+
+button {
+    background-color: #0084ff; /* Bright blue color for the button */
+    color: white; /* White text for contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer; /* Cursor indicates the element is clickable */
+    border-radius: 5px; /* Rounded corners on the button */
+    margin-top: 20px; /* Space above the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover for interactive feedback */
+}
